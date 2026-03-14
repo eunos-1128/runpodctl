@@ -9,15 +9,7 @@ runpodctl - manage your ai system.
 getting started:
   1. get your api key at https://www.runpod.io/console/user/settings
   2. run: runpodctl doctor (will prompt for key and save it)
-     or: export RUNPOD_API_KEY=your-key
-
-installation:
-  linux/macos (wsl):  wget -qO- cli.runpod.net | sudo bash
-  macos (homebrew):   brew install runpod/runpodctl/runpodctl
-  windows:            https://github.com/runpod/runpodctl/releases/latest
-  conda-forge:        conda install conda-forge::runpodctl
-  mamba:              mamba install conda-forge::runpodctl
-  pixi:               pixi global install runpodctl
+  or: export RUNPOD_API_KEY=your-key
 
 resources:
   pod            manage gpu pods
