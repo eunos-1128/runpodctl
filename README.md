@@ -60,7 +60,7 @@ conda install conda-forge::runpodctl
 # mamba
 mamba install conda-forge::runpodctl
 
-# pixi (global install)
+# pixi (user-global install)
 pixi global install runpodctl
 ```
 
